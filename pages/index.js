@@ -15,10 +15,7 @@ export default function Home() {
           ale's portfolio
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <img className={styles.homeIllustration} src="/illustrations/videomames1.jpg" alt="three portraits" />
 
         <div className={styles.grid}>
 
@@ -27,32 +24,21 @@ export default function Home() {
             <a className={styles.card}>Illustration</a>
           </Link>
 
-
-
           <Link href="/comics">
             <a className={styles.card}>Comics</a>
           </Link>
  
-
-
           <Link href="/bio">
             <a className={styles.card}>Bio</a>
           </Link>
 
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/contact">
+            <a className={styles.card}>Contact</a>
+          </Link>
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -61,7 +47,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
