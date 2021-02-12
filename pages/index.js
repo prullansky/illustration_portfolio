@@ -19,7 +19,7 @@ export default function Home() {
         
         <Navbar />
 
-        <div>
+        <div className={styles.containerImage}>
           <img className={styles.homeIllustration}  src="/illustrations/Scan 6 copy.jpg" alt="three portraits" />
         </div>
 
