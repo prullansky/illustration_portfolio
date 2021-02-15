@@ -7,6 +7,10 @@ export default function navbar() {
         <div>
             <div className={styles.grid}>
 
+          <Link href="/">
+            <a className={styles.card}>Home</a>
+          </Link>
+
           <Link href="/illustration">
             <a className={styles.card}>Illustration</a>
           </Link>

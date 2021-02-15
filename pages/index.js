@@ -9,7 +9,7 @@ export default function Home() {
 
 
     
-    <div className={styles.main}>
+    <div>
 
       <h1 className={styles.title}>
           ale rodriguez
@@ -20,7 +20,7 @@ export default function Home() {
         <Navbar />
 
         <div className={styles.containerImage}>
-          <img className={styles.homeIllustration}  src="/illustrations/Scan 6 copy.jpg" alt="three portraits" />
+          <img className={styles.homeIllustration}  src="/illustrations/ROLAND1.jpg" alt="three portraits" />
         </div>
 
       </div>
