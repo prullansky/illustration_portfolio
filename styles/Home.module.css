@@ -11,13 +11,6 @@
 
 }
 
-/* .flexbox {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-
-} */
-
 .containerImage {
 
   display: flex;
@@ -47,6 +40,17 @@
   
 }
 
+/* Illustration */
+
+.wrapper {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+}
 
 /* Navbar */
 

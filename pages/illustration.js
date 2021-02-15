@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Navbar  from './navbar.js'
+import {useState} from 'react'
 
 export default function illustration() {
+
+    const [ activePic, setActivePic ] = useState(undefined)
 
     let images = [
         {
@@ -40,13 +43,16 @@ export default function illustration() {
 
         <Navbar />
 
-    {images.map(image => {
+        
+
+    {images.map(pic => {
     return (
         <div className={styles.containerImage}>
-            
-            <img id='image' src={image.thumbnail}/>
-
+          <button className={styles.wrapper} onClick={() => setActivePic(pic)}>
+            <img id='image' src={pic.thumbnail}/>
+          </button>  
         </div>
+        
         
     )
     
