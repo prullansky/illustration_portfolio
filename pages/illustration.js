@@ -43,14 +43,30 @@ export default function illustration() {
 
         <Navbar />
 
+        <div className= {styles.gallery} style={{ display: !activePic ? "none" : "block" }}>
+
+        <button className={styles.wrapper} onClick={() => setActivePic(undefined)}>
+
+            <img className={styles.homeIllustration} src={activePic?.full} />
+        </button>
+        </div>
+
         
 
     {images.map(pic => {
     return (
-        <div className={styles.containerImage}>
+        <div className={styles.containerIllustrations}>
+
+
+
+
           <button className={styles.wrapper} onClick={() => setActivePic(pic)}>
             <img id='image' src={pic.thumbnail}/>
           </button>  
+
+
+
+
         </div>
         
         
