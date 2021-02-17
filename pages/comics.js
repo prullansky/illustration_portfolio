@@ -2,9 +2,9 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Navbar  from './navbar.js'
 import {data} from './comics/data.js'
-import {useState} from 'react'
 
-export default function comics() {
+export default function comics(props) {
+
 
     return (
         <div >

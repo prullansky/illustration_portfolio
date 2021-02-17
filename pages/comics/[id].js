@@ -3,11 +3,11 @@ import styles from '../../styles/Home.module.css'
 import Navbar from '../navbar'
 import {data} from './data.js'
 
-export default function id() {
+export default function id(props) {
 
-    const { handle } = props.match.params
+    console.log(props)
 
-    console.log({handle})
+
 
     return (
         <div >
