@@ -1,14 +1,10 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Navbar  from './navbar.js'
+import {data} from './comics/data.js'
 import {useState} from 'react'
 
 export default function comics() {
-
-    let images = [ 
-      {id : 'child_pose',
-      pictures: '/comics/child_pose/1.jpg'},
-     ]
 
     return (
         <div >
@@ -21,12 +17,12 @@ export default function comics() {
     
             <Navbar />
         
-        {images.map(pic => {
+        {data.map(pic => {
         return (
             <div className={styles.containerIllustrations}>
             <Link href= {`/comics/${pic.id}`} key={pic.id}>
               <button className={styles.wrapper}>
-                <img id='image' src={pic.pictures}/>
+                <img id='image' className={styles.homeIllustration} src={pic.thumbnail}/>
               </button>
             </Link>  
         
