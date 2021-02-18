@@ -52,6 +52,14 @@
   cursor: pointer;
 }
 
+.image:hover {
+  position:relative;
+  width:250px;
+  height:auto;
+  display:block;
+
+}
+
 .gallery {
 
   position: relative;
@@ -70,6 +78,16 @@
   margin-left: 2em;
 
 }
+
+/* Comics */
+
+.comicContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
 
 /* Navbar */
 

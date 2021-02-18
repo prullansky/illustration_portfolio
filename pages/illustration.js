@@ -34,7 +34,7 @@ export default function illustration() {
     return (
         <div className={styles.containerIllustrations}>
             <button className={styles.wrapper} onClick={() => setActivePic(pic)}>
-            <img id='image' src={pic.thumbnail}/>
+            <img id='image' className={styles.image} src={pic.thumbnail}/>
             </button>
         </div>
         

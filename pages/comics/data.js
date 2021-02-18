@@ -1,5 +1,6 @@
 export const data = [ 
     {id : 'child_pose',
+    description: 'A little comic for Instagram',
     thumbnail: '/comics/child_pose/1.jpg',
     pictures: [
     '/comics/child_pose/1.jpg',

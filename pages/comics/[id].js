@@ -2,15 +2,24 @@ import React from 'react'
 import styles from '../../styles/Home.module.css'
 import Navbar from '../navbar'
 import {data} from './data.js'
+import { useRouter } from 'next/router'
 
-export default function id(props) {
+export default function id() {
 
-    console.log(props)
+  const router = useRouter()
+  const { id } = router.query
+
+   
+    
+
+  const find = data.find(comic => comic.id === {id}.id)
+
+  console.log(find.description)
 
 
 
     return (
-        <div >
+    <div >
     
           <h1 className={styles.title}>
               ale rodriguez
@@ -20,18 +29,17 @@ export default function id(props) {
     
             <Navbar />
         
-            <h2>TEST</h2>
+            <h2>{find.description}</h2>
         
-
-            {/* <div className={styles.containerIllustrations}>
-        
-              <button className={styles.wrapper}>
-                <img id='image' src={pic}/>
-              </button>  
-        
-            </div> */}
+    {find.pictures.map(picture => {
+      return (
+        <div className={styles.comicContainer}>
+        <img src={picture}/>
+        </div>
+      )
+    })}
             
             
-        </div>
-        </div>
+    </div>
+    </div>
     )}
