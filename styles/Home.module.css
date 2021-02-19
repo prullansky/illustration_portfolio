@@ -81,7 +81,25 @@
 
 /* Comics */
 
-.comicContainer {
+.comic {
+  height: 30rem;
+  padding: 3rem;
+}
+
+.layoutComics {
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+  flex: 1;
+  margin-left: 2em;
+
+}
+
+.containerComics {
+
   display: flex;
   flex-direction: column;
   align-items: baseline;
