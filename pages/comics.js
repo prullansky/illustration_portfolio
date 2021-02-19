@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "./navbar.js";
 import { comicsList } from "./comics/data.js";
 
-export default function Comics(props) {
+export default function Comics() {
   return (
     <div>
       <h1 className={styles.title}>ale rodriguez</h1>
@@ -13,8 +13,8 @@ export default function Comics(props) {
 
         {comicsList.map((comic) => {
           return (
-            <div className={styles.containerIllustrations}>
-              <Link href={`/comics/${comic.id}`} key={comic.id}>
+            <div key={comic.id} className={styles.containerIllustrations}>
+              <Link href={`/comics/${comic.id}`}>
                 <button className={styles.wrapper}>
                   <img
                     id="image"
