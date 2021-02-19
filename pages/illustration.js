@@ -24,9 +24,12 @@ export default function Illustration() {
             <img className={styles.homeIllustration} src={activePic?.full} />
           </button>
         </div>
-        {data.map((pic) => {
+        {data.map((pic, picIndex) => {
           return (
-            <div className={styles.containerIllustrations}>
+            <div
+              key={picIndex}
+              className={styles.containerIllustrations}
+            >
               <button
                 className={styles.wrapper}
                 onClick={() => setActivePic(pic)}
