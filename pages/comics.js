@@ -1,7 +1,6 @@
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import Navbar from "./navbar.js";
-import { comicsList } from "./comics/data.js";
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
+import { comicsList } from './comics/data.js'
 
 export default function Comics() {
   return (
@@ -9,8 +8,6 @@ export default function Comics() {
       <h1 className={styles.title}>ale rodriguez</h1>
 
       <div className={styles.homeLayout}>
-        <Navbar />
-
         {comicsList.map((comic) => {
           return (
             <div key={comic.id} className={styles.containerIllustrations}>
@@ -24,9 +21,9 @@ export default function Comics() {
                 </button>
               </Link>
             </div>
-          );
+          )
         })}
       </div>
     </div>
-  );
+  )
 }
