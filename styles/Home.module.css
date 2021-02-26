@@ -1,14 +1,5 @@
 /* Home */
 
-__next {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  align-items: flex-start;
-}
-
 .homeIllustration {
   height: 55rem;
   padding: 3rem;

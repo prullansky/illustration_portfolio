@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import Navbar from './navbar.js'
+import Navbar from './Navbar.js'
 import { useState } from 'react'
 import { data } from './illustration/data.js'
 
