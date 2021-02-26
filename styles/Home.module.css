@@ -1,6 +1,6 @@
 /* Home */
 
-__next {
+#__next {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -50,7 +50,7 @@ __next {
   font-size: 2rem;
   padding-left: 100rem;
 
-  
+
 }
 
 /* Illustration */

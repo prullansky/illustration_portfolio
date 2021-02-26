@@ -1,6 +1,5 @@
-import Link from 'next/link'
+import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
-import Navbar from './navbar.js'
 import { useState } from 'react'
 import { data } from './illustration/data.js'
 
@@ -8,7 +7,7 @@ export default function Illustration() {
   const [activePic, setActivePic] = useState(undefined)
 
   return (
-    <div>
+    <Layout>
       <div
         className={styles.gallery}
         style={{ display: !activePic ? 'none' : 'block' }}
@@ -32,6 +31,6 @@ export default function Illustration() {
           </div>
         )
       })}
-    </div>
+    </Layout>
   )
 }
