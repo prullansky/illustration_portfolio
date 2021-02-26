@@ -1,13 +1,26 @@
 /* Home */
 
+__next {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-start;
+}
+
 .homeIllustration {
   height: 55rem;
   padding: 3rem;
 }
 
 .homeLayout {
-  display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
 
 }
 
@@ -87,14 +100,12 @@
 }
 
 .layoutComics {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-  flex: 1;
-  margin-left: 2em;
+  align-items: center;
+  justify-content: space-between;
+
 
 }
 

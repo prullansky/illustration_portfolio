@@ -4,8 +4,8 @@ import Navbar from './navbar.js'
 function MyApp({ Component, pageProps }) {
   return (
     <div className={styles.homeLayout}>
-      <Component {...pageProps} />;
       <Navbar />
+      <Component {...pageProps} />;
     </div>
   )
 }

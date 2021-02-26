@@ -5,12 +5,10 @@ import { comicsList } from './comics/data.js'
 export default function Comics() {
   return (
     <div>
-      <h1 className={styles.title}>ale rodriguez</h1>
-
-      <div className={styles.homeLayout}>
+      <div className={styles.layoutComics}>
         {comicsList.map((comic) => {
           return (
-            <div key={comic.id} className={styles.containerIllustrations}>
+            <div key={comic.id}>
               <Link href={`/comics/${comic.id}`}>
                 <button className={styles.wrapper}>
                   <img
