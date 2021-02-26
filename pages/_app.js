@@ -1,12 +1,8 @@
-import styles from '../styles/globals.css'
-import Navbar from './navbar.js'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className={styles.homeLayout}>
-      <Navbar />
-      <Component {...pageProps} />;
-    </div>
+    <Component {...pageProps} />
   )
 }
 
