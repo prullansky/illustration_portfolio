@@ -1,4 +1,4 @@
-import styles from '../styles/globals.css'
+import styles from '../styles/Home.module.css'
 import Navbar from './navbar.js'
 
 function MyApp({ Component, pageProps }) {
