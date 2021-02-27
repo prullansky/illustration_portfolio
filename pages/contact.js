@@ -1,13 +1,14 @@
-import Link from "next/link";
+import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Contact() {
   return (
-    <div>
+    <Layout>
       <p>e-mail adress</p>
 
       <Link href="/">
         <a>Back</a>
       </Link>
-    </div>
-  );
+    </Layout>
+  )
 }

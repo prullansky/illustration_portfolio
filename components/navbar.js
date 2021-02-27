@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className={styles.grid}>
+    <div className={styles.navbar}>
       <Link href="/">
         <a className={styles.card}>Home</a>
       </Link>

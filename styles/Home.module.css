@@ -8,8 +8,8 @@
 .homeLayout {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-content: center;
     align-items: flex-start;
 
@@ -41,7 +41,7 @@
   font-size: 2rem;
   padding-left: 100rem;
 
-  
+
 }
 
 /* Illustration */
@@ -72,30 +72,33 @@
 
 .containerIllustrations {
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-  flex: 1;
-  margin-left: 2em;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin-left: 1em;
 
 }
 
 /* Comics */
 
 .comic {
-  height: 40rem;
+  height: 27rem;
   padding: 3rem;
 }
 
 .layoutComics {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   align-items: center;
-  justify-content: space-between;
+
 
 
 }
@@ -109,10 +112,20 @@
   /* border: 1px solid black */
 }
 
+.containerDynamicComic {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 
 /* Navbar */
 
-.grid {
+.navbar {
+  position: fixed;
   background-color: yellow;
   width: 10rem;
   display: flex;

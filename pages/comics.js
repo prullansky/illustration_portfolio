@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { comicsList } from './comics/data.js'
+import Layout from '../components/Layout'
 
 export default function Comics() {
   return (
-    <div>
+    <Layout>
       <div className={styles.layoutComics}>
         {comicsList.map((comic) => {
           return (
@@ -22,6 +23,6 @@ export default function Comics() {
           )
         })}
       </div>
-    </div>
+    </Layout>
   )
 }

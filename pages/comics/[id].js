@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles/Home.module.css'
 import { comicsList } from './data.js'
 import { useRouter } from 'next/router'
+import Layout from '../../components/Layout'
 
 // This function is only called on the server.
 //
@@ -36,20 +37,19 @@ export default function ComicPage(props) {
 
   if (!currentComic) {
     return (
-      <div>
-        <h1 className={styles.title}>ale rodriguez</h1>
-        <div className={styles.layoutComics}>
-          <h2>Sorry, comic not found</h2>
+      <Layout>
+        <div>
+          <div className={styles.layoutComics}>
+            <h2>Sorry, comic not found</h2>
+          </div>
         </div>
-      </div>
+      </Layout>
     )
   }
 
   return (
-    <div>
-      <h1 className={styles.title}>ale rodriguez</h1>
-
-      <div>
+    <Layout>
+      <div className={styles.containerDynamicComic}>
         {/* <div className={styles.layoutComics}> */}
         {/* <h2>{currentComic.title}</h2>
                 <ul>
@@ -58,15 +58,12 @@ export default function ComicPage(props) {
 
         {currentComic.images.map((image, imageIndexInArray) => {
           return (
-            <div
-              key={`${comicId}-${imageIndexInArray}`}
-              className={styles.containerComics}
-            >
+            <div key={`${comicId}-${imageIndexInArray}`}>
               <img src={image} className={styles.comic} />
             </div>
           )
         })}
       </div>
-    </div>
+    </Layout>
   )
 }
