@@ -12,6 +12,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/XawA7O46yJM"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -19,6 +24,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/Ubm_WsngUHc"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -26,6 +36,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/fndIJmvtEGE"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -33,6 +48,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/Z9O1zB1DE3U"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -40,6 +60,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/THXc_fM-r7o"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -47,6 +72,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/lJQ2nw-ZOV4"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
         <iframe
           className={styles.video}
@@ -54,6 +84,11 @@ export default function video() {
           height="630"
           src="https://www.youtube.com/embed/r6IbfB-X2Is"
           frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
       </div>
     </Layout>
