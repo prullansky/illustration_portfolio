@@ -21,6 +21,10 @@ export default function Navbar() {
         <a className={styles.card}>Comics</a>
       </Link>
 
+      <Link href="/video">
+        <a className={styles.card}>Video</a>
+      </Link>
+
       <Link href="/bio">
         <a className={styles.card}>Bio</a>
       </Link>

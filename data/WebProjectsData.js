@@ -24,7 +24,7 @@ export const WebProjectsData = [
   {
     id: 'shapeZ',
     title: 'shapeZ',
-    picture: '/web_projects/shapez.png',
+    picture: '/web_projects/shapez.jpg',
     environment: 'HTML5 | CSS3 | JavaScript | Canvas |',
     description:
       'Arcade game focused on high-score and high replay value. Created with p5.js',
