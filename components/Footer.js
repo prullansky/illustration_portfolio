@@ -6,19 +6,19 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <Link href="https://github.com/prullansky">
-        <a className={styles.nav_item}>Github</a>
+        <img src="footer/github.svg" className={styles.icon} />
       </Link>
 
       <Link href="https://www.linkedin.com/in/ale-j-rodriguez/">
-        <a className={styles.nav_item}>Linkedin</a>
+        <img src="footer/linkedin.svg" className={styles.icon} />
       </Link>
 
       <Link href="https://alejrodriguez.medium.com/">
-        <a className={styles.nav_item}>Medium</a>
+        <img src="footer/medium.svg" className={styles.icon} />
       </Link>
 
       <Link href="mailto:alesrods@gmail.com">
-        <a className={styles.nav_item}>Contact me</a>
+        <img src="footer/email.svg" className={styles.icon} />
       </Link>
     </div>
   )

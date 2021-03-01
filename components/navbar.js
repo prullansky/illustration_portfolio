@@ -29,9 +29,9 @@ export default function Navbar() {
         <a className={styles.nav_item}>Bio</a>
       </Link>
 
-      <Link href="/contact">
+      {/* <Link href="/contact">
         <a className={styles.nav_item}>Contact</a>
-      </Link>
+      </Link> */}
     </div>
   )
 }
