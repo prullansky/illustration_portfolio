@@ -88,7 +88,12 @@
 
 .comic {
   height: 27rem;
-  padding: 3rem;
+  margin: 3rem;
+}
+
+.comicDetail {
+  height: 40rem;
+  text-align: center
 }
 
 .layoutComics {
@@ -125,7 +130,7 @@
 /* Navbar */
 
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   background-color: yellow;
   width: 10rem;
   display: flex;
