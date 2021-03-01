@@ -4,33 +4,33 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className={styles.navbar}>
+    <div className={styles.nav_top}>
       <Link href="/">
-        <a className={styles.card}>Home</a>
+        <a className={styles.nav_item}>Home</a>
       </Link>
 
       <Link href="/web_projects">
-        <a className={styles.card}>Web Projects</a>
+        <a className={styles.nav_item}>Web Projects</a>
       </Link>
 
       <Link href="/illustration">
-        <a className={styles.card}>Illustration</a>
+        <a className={styles.nav_item}>Illustration</a>
       </Link>
 
       <Link href="/comics">
-        <a className={styles.card}>Comics</a>
+        <a className={styles.nav_item}>Comics</a>
       </Link>
 
       <Link href="/video">
-        <a className={styles.card}>Video</a>
+        <a className={styles.nav_item}>Video</a>
       </Link>
 
       <Link href="/bio">
-        <a className={styles.card}>Bio</a>
+        <a className={styles.nav_item}>Bio</a>
       </Link>
 
       <Link href="/contact">
-        <a className={styles.card}>Contact</a>
+        <a className={styles.nav_item}>Contact</a>
       </Link>
     </div>
   )
