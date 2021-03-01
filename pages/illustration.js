@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 import { useState } from 'react'
-import { data } from './illustration/data.js'
+import { data } from '../data/IllustrationData.js'
 
 export default function Illustration() {
   const [activePic, setActivePic] = useState(undefined)

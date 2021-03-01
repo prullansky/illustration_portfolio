@@ -9,6 +9,10 @@ export default function Navbar() {
         <a className={styles.card}>Home</a>
       </Link>
 
+      <Link href="/web_projects">
+        <a className={styles.card}>Web Projects</a>
+      </Link>
+
       <Link href="/illustration">
         <a className={styles.card}>Illustration</a>
       </Link>

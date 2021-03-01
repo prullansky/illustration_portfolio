@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { comicsList } from './comics/data.js'
+import { comicsList } from '../data/ComicsData.js'
 import Layout from '../components/Layout'
 
 export default function Comics() {
