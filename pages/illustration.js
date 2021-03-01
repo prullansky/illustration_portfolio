@@ -1,14 +1,14 @@
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 import { useState } from 'react'
-import { data } from '../data/IllustrationData.js'
+import { IllustrationData } from '../data/IllustrationData.js'
 
 export default function Illustration() {
   const [activePic, setActivePic] = useState(undefined)
 
   return (
     <Layout>
-      <div className={styles.containerComics}>
+      <div className={styles.containerIllustrations}>
         <div
           className={styles.gallery}
           style={{ display: !activePic ? 'none' : 'block' }}
@@ -21,18 +21,14 @@ export default function Illustration() {
           </button>
         </div>
         <div className={styles.containerIllustrations}>
-          {data.map((pic, picIndex) => {
+          {IllustrationData.map((pic, picIndex) => {
             return (
               <div key={picIndex}>
                 <button
                   className={styles.wrapper}
                   onClick={() => setActivePic(pic)}
                 >
-                  <img
-                    id="image"
-                    className={styles.image}
-                    src={pic.thumbnail}
-                  />
+                  <img id="image" className={styles.image} src={pic.full} />
                 </button>
               </div>
             )
