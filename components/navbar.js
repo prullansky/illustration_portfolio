@@ -5,30 +5,38 @@ import Link from 'next/link'
 export default function Navbar() {
   return (
     <div className={styles.nav_top}>
-      <Link href="/">
-        <a className={styles.nav_item}>Home</a>
-      </Link>
-
-      <Link href="/web_projects">
-        <a className={styles.nav_item}>Web Projects</a>
-      </Link>
-
-      <Link href="/illustration">
-        <a className={styles.nav_item}>Illustration</a>
-      </Link>
-
-      <Link href="/comics">
-        <a className={styles.nav_item}>Comics</a>
-      </Link>
-
-      <Link href="/video">
-        <a className={styles.nav_item}>Video</a>
-      </Link>
-
-      <Link href="/bio">
-        <a className={styles.nav_item}>Bio</a>
-      </Link>
-
+      <div className={styles.nav_item_left}>
+        <Link href="/">
+          <a className={styles.nav_item}>Home</a>
+        </Link>
+      </div>
+      <div className={styles.flex}>
+        <div className={styles.nav_item}>
+          <Link href="/web_projects">
+            <a>Web Projects</a>
+          </Link>
+        </div>
+        <div className={styles.nav_item}>
+          <Link href="/illustration">
+            <a>Illustration</a>
+          </Link>
+        </div>
+        <div className={styles.nav_item}>
+          <Link href="/comics">
+            <a>Comics</a>
+          </Link>
+        </div>
+        <div className={styles.nav_item}>
+          <Link href="/video">
+            <a>Video</a>
+          </Link>
+        </div>
+        <div className={styles.nav_item}>
+          <Link href="/bio">
+            <a>Bio</a>
+          </Link>
+        </div>
+      </div>
       {/* <Link href="/contact">
         <a className={styles.nav_item}>Contact</a>
       </Link> */}
