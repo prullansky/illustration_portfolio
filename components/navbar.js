@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className={styles.nav_top}>
+    <nav className={styles.nav_top}>
       <div className={styles.nav_item_left}>
         <Link href="/">
           <a className={styles.nav_item}>Home</a>
@@ -40,6 +40,6 @@ export default function Navbar() {
       {/* <Link href="/contact">
         <a className={styles.nav_item}>Contact</a>
       </Link> */}
-    </div>
+    </nav>
   )
 }

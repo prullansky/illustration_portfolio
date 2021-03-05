@@ -59,7 +59,8 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background-color:red;
+  width: 70rem;
+  background-color: #817c64;
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   padding: 2rem;
@@ -159,8 +160,8 @@
 
 /* Navbar */
 
-.nav-left {
-  /* position: fixed; */
+/* .nav-left {
+  position: fixed;
   background-color: #fdd302;
   width: 10rem;
   display: flex;
@@ -170,7 +171,7 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
-}
+} */
 
 .nav_top {
   background-color: #fdd302;
@@ -181,28 +182,25 @@
 }
 
 .flex {
-
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-content: center;
-  align-items: center;
 }
-
 
 .nav_item {
   margin-top: 1rem;
-  text-align: left;
-  border-radius: 10px;
   transition: color 0.15s ease,  font-weight 0.15s ease;
+  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 .nav_item_left {
   margin-right: auto;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-top: 1rem;
-}
+  transition: color 0.15s ease,  font-weight 0.15s ease;
+} 
 
 .nav_item:hover,
 .nav_item:focus,
