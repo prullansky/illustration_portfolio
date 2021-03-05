@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import { IllustrationData } from '../data/IllustrationData'
 
 export default function Home() {
-  let number = Math.round(Math.random() * IllustrationData.length)
+  let number = Math.round(Math.random() * (IllustrationData.length - 1))
 
   return (
     <Layout>
@@ -12,7 +12,7 @@ export default function Home() {
         <img
           className={styles.homeIllustration}
           src={IllustrationData[number].full}
-          alt="three portraits"
+          alt="home illustration"
         />
       </div>
     </Layout>
