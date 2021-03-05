@@ -45,6 +45,8 @@
   justify-content: center;
   align-content: space-between;
   align-items: center;
+  margin: 2rem;
+  padding-bottom: 2.5rem;
 
 }
 
@@ -152,10 +154,13 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin: 2rem;
+  padding-bottom: 3rem;
 }
 
 .video {
   padding: 1rem;
+
 }
 
 /* Navbar */
