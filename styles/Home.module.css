@@ -143,6 +143,13 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+  padding-bottom: 3rem;
+  margin: 2rem;
+}
+
+.dynamicComic {
+  padding: 1rem;
+  /* margin: 2rem; */
 }
 
 /* Videos */
@@ -207,22 +214,16 @@
   transition: color 0.15s ease,  font-weight 0.15s ease;
 } 
 
+.nav_item_current {
+  background: red;
+}
+
 .nav_item:hover,
 .nav_item:focus,
 .nav_item:active {
   font-weight: bold;
 }
 
-.nav_item h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.nav_item p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
 
 /* Footer */
 

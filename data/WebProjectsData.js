@@ -10,7 +10,7 @@ export const WebProjectsData = [
     description:
       'Overcome writers block within the help of a community: share your own block and be helped, share your own ideas to help others.',
     github: 'https://github.com/strivetogether/write_together',
-    demo: 'strive-together.herokuapp.com/',
+    demo: 'http://strive-together.herokuapp.com/',
   },
   {
     id: 'gamsters',

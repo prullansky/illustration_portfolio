@@ -58,7 +58,10 @@ export default function ComicPage(props) {
 
         {currentComic.images.map((image, imageIndexInArray) => {
           return (
-            <div key={`${comicId}-${imageIndexInArray}`}>
+            <div
+              className={styles.dynamicComic}
+              key={`${comicId}-${imageIndexInArray}`}
+            >
               <img src={image} className={styles.comicDetail} />
             </div>
           )

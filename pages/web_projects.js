@@ -34,7 +34,7 @@ export default function web_projects() {
               </div>
 
               <div>
-                <a href={project.demo}>
+                <a href={project.demo} target="_blank">
                   <img
                     id="image"
                     className={styles.comic}
@@ -42,9 +42,13 @@ export default function web_projects() {
                   />
                 </a>
                 <p>{project.description}</p>
-                <a href={project.github}>Github repo</a>
+                <a href={project.github} target="_blank">
+                  Github repo
+                </a>
                 <br />
-                <a href={project.demo}>Live Demo</a>
+                <a href={project.demo} target="_blank">
+                  Live Demo
+                </a>
               </div>
             </div>
           )
