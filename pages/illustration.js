@@ -8,17 +8,16 @@ export default function Illustration() {
 
   return (
     <Layout>
-      <div className={styles.containerIllustrations}>
-        <div
-          className={styles.gallery}
-          style={{ display: !activePic ? 'none' : 'block' }}
-        >
-          <button
-            className={styles.wrapper}
-            onClick={() => setActivePic(undefined)}
-          >
-            <img className={styles.homeIllustration} src={activePic?.full} />
-          </button>
+      <div>
+        <div className={styles.containerImage}>
+          <div id="gallery" style={{ display: !activePic ? 'none' : 'block' }}>
+            <button
+              className={styles.wrapper}
+              onClick={() => setActivePic(undefined)}
+            >
+              <img className={styles.homeIllustration} src={activePic?.full} />
+            </button>
+          </div>
         </div>
         <div className={styles.containerIllustrations}>
           {IllustrationData.map((pic, picIndex) => {
@@ -28,7 +27,9 @@ export default function Illustration() {
                   className={styles.wrapper}
                   onClick={() => setActivePic(pic)}
                 >
-                  <img id="image" className={styles.image} src={pic.full} />
+                  <a href="#gallery">
+                    <img id="image" className={styles.image} src={pic.full} />
+                  </a>
                 </button>
               </div>
             )

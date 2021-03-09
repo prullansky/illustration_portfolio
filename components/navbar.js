@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className={styles.flex}>
         <div
           className={[
-            styles.nav_item_left,
+            styles.nav_item,
             router.pathname == '/web_projects' ? styles.nav_item_current : '',
           ].join(' ')}
         >
@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
         <div
           className={[
-            styles.nav_item_left,
+            styles.nav_item,
             router.pathname == '/illustration' ? styles.nav_item_current : '',
           ].join(' ')}
         >
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
         <div
           className={[
-            styles.nav_item_left,
+            styles.nav_item,
             router.pathname == '/comics' ? styles.nav_item_current : '',
           ].join(' ')}
         >
@@ -51,7 +51,7 @@ export default function Navbar() {
         </div>
         <div
           className={[
-            styles.nav_item_left,
+            styles.nav_item,
             router.pathname == '/video' ? styles.nav_item_current : '',
           ].join(' ')}
         >
@@ -61,7 +61,7 @@ export default function Navbar() {
         </div>
         <div
           className={[
-            styles.nav_item_left,
+            styles.nav_item,
             router.pathname == '/bio' ? styles.nav_item_current : '',
           ].join(' ')}
         >

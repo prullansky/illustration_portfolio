@@ -8,8 +8,8 @@ export default function video() {
       <div className={styles.containerVideos}>
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/XawA7O46yJM"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -20,8 +20,8 @@ export default function video() {
         ></iframe>
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/Ubm_WsngUHc"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -30,7 +30,7 @@ export default function video() {
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
-        <iframe
+        {/* <iframe
           className={styles.video}
           width="1120"
           height="630"
@@ -41,11 +41,11 @@ export default function video() {
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
-        ></iframe>
+        ></iframe> */}
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/Z9O1zB1DE3U"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -56,8 +56,8 @@ export default function video() {
         ></iframe>
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/THXc_fM-r7o"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -68,8 +68,8 @@ export default function video() {
         ></iframe>
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/lJQ2nw-ZOV4"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -80,8 +80,8 @@ export default function video() {
         ></iframe>
         <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/r6IbfB-X2Is"
           frameborder="0"
           allowfullscreen="allowfullscreen"
