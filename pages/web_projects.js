@@ -12,17 +12,11 @@ export default function web_projects() {
           return (
             <div key={projectIndex} className={styles.card}>
               <div className={styles.web_project_year}>
-                {/* <div>
-                  Year{'\n'}
-                  {project.year}
-                  Team{' '}
-                  {project.team.map((member, memberIndex) => {
-                    return <li>{member}</li>
-                  })}
-                </div> */}
                 <div>
                   <h1>{project.title}</h1>
                   <h4>{project.environment}</h4>
+                </div>
+                <div>
                   <h5>{project.year}</h5>
                   <h5>
                     Team
@@ -37,16 +31,16 @@ export default function web_projects() {
                 <a href={project.demo} target="_blank">
                   <img
                     id="image"
-                    className={styles.comic}
+                    className={(styles.containerImage, styles.homeIllustration)}
                     src={project.picture}
                   />
                 </a>
                 <p>{project.description}</p>
-                <a href={project.github} target="_blank">
+                <a className={styles.a} href={project.github} target="_blank">
                   Github repo
                 </a>
                 <br />
-                <a href={project.demo} target="_blank">
+                <a className={styles.a} href={project.demo} target="_blank">
                   Live Demo
                 </a>
               </div>

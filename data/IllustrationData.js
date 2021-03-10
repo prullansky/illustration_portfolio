@@ -25,7 +25,7 @@ export const IllustrationData = [
   },
   {
     thumbnail: '',
-    full: '/illustrations/lou.jpg',
+    full: '/illustrations/day_out.jpg',
   },
   {
     thumbnail: '',
@@ -49,7 +49,7 @@ export const IllustrationData = [
   },
   {
     thumbnail: '',
-    full: '/illustrations/INSTA1.jpg',
+    full: '/illustrations/lou.jpg',
   },
   {
     thumbnail: '',
@@ -58,5 +58,53 @@ export const IllustrationData = [
   {
     thumbnail: '',
     full: '/illustrations/J.K.BNR.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/rick.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/walt.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/ofrenda.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/eva.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/videomames1.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/hideo.png',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/J.K.BNR.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/yoda.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/INSTA1.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/dansokey.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/alien.jpg',
+  },
+  {
+    thumbnail: '',
+    full: '/illustrations/loopman.jpg',
   },
 ]

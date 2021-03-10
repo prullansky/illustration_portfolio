@@ -30,10 +30,10 @@ export default function video() {
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
-        {/* <iframe
+        <iframe
           className={styles.video}
-          width="1120"
-          height="630"
+          width="896"
+          height="504"
           src="https://www.youtube.com/embed/fndIJmvtEGE"
           frameborder="0"
           allowfullscreen="allowfullscreen"
@@ -41,8 +41,8 @@ export default function video() {
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
-        ></iframe> */}
-        <iframe
+        ></iframe>
+        {/* <iframe
           className={styles.video}
           width="896"
           height="504"
@@ -53,7 +53,7 @@ export default function video() {
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
-        ></iframe>
+        ></iframe> */}
         <iframe
           className={styles.video}
           width="896"
