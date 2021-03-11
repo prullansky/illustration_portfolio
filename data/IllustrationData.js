@@ -51,10 +51,10 @@ export const IllustrationData = [
     thumbnail: '',
     full: '/illustrations/lou.jpg',
   },
-  {
-    thumbnail: '',
-    full: '/illustrations/INSTA3.jpg',
-  },
+  // {
+  //   thumbnail: '',
+  //   full: '/illustrations/INSTA3.jpg',
+  // },
   {
     thumbnail: '',
     full: '/illustrations/J.K.BNR.jpg',
@@ -91,10 +91,10 @@ export const IllustrationData = [
     thumbnail: '',
     full: '/illustrations/yoda.jpg',
   },
-  {
-    thumbnail: '',
-    full: '/illustrations/INSTA1.jpg',
-  },
+  // {
+  //   thumbnail: '',
+  //   full: '/illustrations/INSTA1.jpg',
+  // },
   {
     thumbnail: '',
     full: '/illustrations/dansokey.jpg',
