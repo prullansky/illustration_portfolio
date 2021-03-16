@@ -85,7 +85,7 @@ export const IllustrationData = [
   },
   {
     thumbnail: '',
-    full: '/illustrations/J.K.BNR.jpg',
+    full: '/illustrations/loopman.jpg',
   },
   {
     thumbnail: '',
@@ -102,9 +102,5 @@ export const IllustrationData = [
   {
     thumbnail: '',
     full: '/illustrations/alien.jpg',
-  },
-  {
-    thumbnail: '',
-    full: '/illustrations/loopman.jpg',
   },
 ]

@@ -7,7 +7,7 @@ export default function Navbar() {
   const router = useRouter()
 
   return (
-    <nav className={styles.nav_top}>
+    <nav className={styles.top_nav}>
       <div
         className={[
           styles.nav_item_left,
@@ -15,10 +15,11 @@ export default function Navbar() {
         ].join(' ')}
       >
         <Link href="/">
-          <a className={styles.nav_item}>Home</a>
+          <a>Home</a>
         </Link>
       </div>
-      <div className={styles.flex}>
+
+      <div className={styles.horizontal_nav}>
         <div
           className={[
             styles.nav_item,
@@ -70,9 +71,6 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-      {/* <Link href="/contact">
-        <a className={styles.nav_item}>Contact</a>
-      </Link> */}
     </nav>
   )
 }
