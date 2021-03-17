@@ -302,3 +302,87 @@ open and close the topnav (.icon) */
 .a:hover {
   text-decoration: underline;
 }
+
+/* Navbar2 */
+
+.navbar {
+background-color: #fdd302;
+width: 100%;
+height: 4rem;
+display: flex;
+}
+
+.navbar .leftSide {
+flex: 50%;
+background-color: red;
+display: flex;
+align-items: center;
+}
+
+.navbar .leftSide .home {
+  padding-left: 1rem;
+  font-size: 1.8rem;
+}
+
+.navbar .leftSide .hidden {
+  display: none;
+}
+
+.navbar .leftSide button {
+  display: none;
+  margin-left: 1rem;
+}
+
+.navbar .rightSide {
+flex: 70%;
+background-color: green;
+}
+
+.navbar .leftSide #hidden{
+display: flex;
+}
+
+.navbar .rightSide .links {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .navbar .rightSide .links {
+    font-size: 1.5rem;
+  }
+
+  .navbar .leftSide .home {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+
+  .navbar .leftSide button {
+    display: flex;
+  }
+  .navbar .rightSide .links {
+    display: none;
+  }
+
+  .navbar .leftSide .home {
+    display: none;
+  }
+
+  .navbar .leftSide .hidden {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 4rem;
+    height: 10rem;
+    width: 100%;
+    background-color:yellow;
+  }
+}
+

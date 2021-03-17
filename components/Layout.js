@@ -1,11 +1,12 @@
 import styles from '../styles/Home.module.css'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
+import Navbar2 from './Navbar2.js'
 
 export default function Layout({ children }) {
   return (
     <div className={styles.homeLayout}>
-      <Navbar />
+      <Navbar2 />
       {children}
       <Footer />
     </div>
