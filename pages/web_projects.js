@@ -16,7 +16,7 @@ export default function web_projects() {
                   <h1>{project.title}</h1>
                   <h4>{project.environment}</h4>
                 </div>
-                <div>
+                {/* <div>
                   <h5>{project.year}</h5>
                   <h5>
                     Team
@@ -24,14 +24,16 @@ export default function web_projects() {
                       return <li>{member}</li>
                     })}
                   </h5>
-                </div>
+                </div> */}
               </div>
 
               <div>
                 <a href={project.demo} target="_blank">
                   <img
                     id="image"
-                    className={(styles.containerImage, styles.homeIllustration)}
+                    className={
+                      (styles.container_web_project, styles.web_project_image)
+                    }
                     src={project.picture}
                   />
                 </a>

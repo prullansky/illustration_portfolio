@@ -10,7 +10,7 @@ export default function video() {
           className={styles.video}
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/XawA7O46yJM"
+          src="https://www.youtube.com/embed/Ubm_WsngUHc"
           frameborder="0"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen"
@@ -22,7 +22,7 @@ export default function video() {
           className={styles.video}
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/Ubm_WsngUHc"
+          src="https://www.youtube.com/embed/XawA7O46yJM"
           frameborder="0"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen"
