@@ -1,8 +1,9 @@
 /* Home */
 
 .homeIllustration {
-  height: 55rem;
-  padding: 3rem;
+  height: 50rem;
+  margin-top: 1rem;
+
 }
 
 .homeLayout {
@@ -13,7 +14,11 @@
 
 .containerImage {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 
@@ -33,6 +38,25 @@
   font-size: 2rem;
   padding-left: 100rem;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  .homeIllustration {
+    height: 35rem;
+    padding: 2rem;
+  }
+
+} 
+
+@media only screen and (max-width: 769px) {
+
+  .homeIllustration {
+    height: 38rem;
+    margin-top: 6rem;
+  }
+
+}
+
 
 /* Web-Project */
 
@@ -103,8 +127,6 @@
   justify-content: center;
   margin-top: 3rem;
   margin-bottom: 6rem;
-
-
 }
 
 /* Comics */
@@ -295,14 +317,6 @@ open and close the topnav (.icon) */
   cursor: pointer;
 }
 
-.a {
-  color:blue;
-}
-
-.a:hover {
-  text-decoration: underline;
-}
-
 /* Navbar2 */
 
 .navbar {
@@ -314,7 +328,7 @@ display: flex;
 
 .navbar .leftSide {
 flex: 50%;
-background-color: red;
+background-color: #fdd302;
 display: flex;
 align-items: center;
 }
@@ -328,6 +342,28 @@ align-items: center;
   display: none;
 }
 
+.navbar .leftSide .show {
+  position: absolute; 
+  top: 4rem;
+  height: 13rem;
+  width: 100%;
+  background-color: #fdd302;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar .leftSide .show a{
+margin: 0.5rem;
+}
+
+.navbar .leftSide .show .current{
+  text-decoration: line-through;
+  text-decoration-color:red;
+  text-decoration-thickness: 0.3rem;
+  font-weight: bold;
+}
+
 .navbar .leftSide button {
   display: none;
   margin-left: 1rem;
@@ -335,7 +371,7 @@ align-items: center;
 
 .navbar .rightSide {
 flex: 70%;
-background-color: green;
+background-color: #fdd302;
 }
 
 .navbar .leftSide #hidden{
@@ -350,6 +386,8 @@ display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -373,16 +411,6 @@ display: flex;
 
   .navbar .leftSide .home {
     display: none;
-  }
-
-  .navbar .leftSide .hidden {
-    display: flex;
-    position: absolute;
-    left: 0px;
-    top: 4rem;
-    height: 10rem;
-    width: 100%;
-    background-color:yellow;
   }
 }
 
