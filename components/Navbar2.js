@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+import { FaBars } from 'react-icons/fa'
 
 export default function Navbar2() {
   const router = useRouter()
@@ -63,7 +64,9 @@ export default function Navbar2() {
             </Link>
           </div>
         </div>
-        <button onClick={displayHidden}>Open</button>
+        <button onClick={displayHidden}>
+          <FaBars />
+        </button>
       </div>
 
       <div className={styles.rightSide}>
