@@ -10,14 +10,14 @@ export default function Illustration() {
     <Layout>
       <div>
         <div className={styles.containerImage}>
-          {/* <div id="gallery" style={{ display: !activePic ? 'none' : 'block' }}>
+          <div id="gallery" style={{ display: !activePic ? 'none' : 'block' }}>
             <button
               className={styles.wrapper}
               onClick={() => setActivePic(undefined)}
             >
-              <img className={styles.homeIllustration} src={activePic?.full} />
+              <img className={styles.fullScreen} src={activePic?.full} />
             </button>
-          </div> */}
+          </div>
         </div>
         <div className={styles.containerIllustrations}>
           {IllustrationData.map((pic, picIndex) => {

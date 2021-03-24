@@ -18,7 +18,13 @@ export default function Navbar2() {
   return (
     <div className={styles.navbar}>
       <div className={styles.leftSide}>
-        <div className={styles.home} id={showLinks ? 'hidden' : ''}>
+        <div
+          className={[
+            styles.home,
+            router.pathname == '/' ? styles.current : '',
+          ].join(' ')}
+          id={showLinks ? 'hidden' : ''}
+        >
           <Link href="/">
             <a>Home</a>
           </Link>
@@ -71,23 +77,35 @@ export default function Navbar2() {
 
       <div className={styles.rightSide}>
         <div className={styles.links}>
-          <Link href="/web_projects">
-            <a>Web Projects</a>
-          </Link>
-
-          <Link href="/illustration">
-            <a>Illustration</a>
-          </Link>
-          <Link href="/comics">
-            <a>Comics</a>
-          </Link>
-          <Link href="/video">
-            <a>Video</a>
-          </Link>
-
-          <Link href="/bio">
-            <a>Bio</a>
-          </Link>
+          <div
+            className={router.pathname == '/web_projects' ? styles.current : ''}
+          >
+            <Link href="/web_projects">
+              <a>Web Projects</a>
+            </Link>
+          </div>
+          <div
+            className={router.pathname == '/illustration' ? styles.current : ''}
+          >
+            <Link href="/illustration">
+              <a>Illustration</a>
+            </Link>
+          </div>
+          <div className={router.pathname == '/comics' ? styles.current : ''}>
+            <Link href="/comics">
+              <a>Comics</a>
+            </Link>
+          </div>
+          <div className={router.pathname == '/video' ? styles.current : ''}>
+            <Link href="/video">
+              <a>Video</a>
+            </Link>
+          </div>
+          <div className={router.pathname == '/bio' ? styles.current : ''}>
+            <Link href="/bio">
+              <a>Bio</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

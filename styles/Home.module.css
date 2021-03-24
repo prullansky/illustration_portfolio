@@ -150,6 +150,11 @@
 .gallery {
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.fullScreen {
+  width: 100%;
 }
 
 .containerIllustrations {  
@@ -429,7 +434,7 @@ align-items: center;
   font-size: 1.8rem;
 }
 
-.navbar .leftSide .show .current{
+.current{
   text-decoration: line-through;
   text-decoration-color:red;
   text-decoration-thickness: 0.3rem;
@@ -444,14 +449,14 @@ align-items: center;
   font-size: 2rem;
 }
 
-.navbar .rightSide {
-flex: 70%;
-background-color: #fdd302;
-}
-
 .navbar .leftSide #hidden{
 display: flex;
 }
+
+.navbar .rightSide {
+  flex: 70%;
+  background-color: #fdd302;
+  }
 
 .navbar .rightSide .links {
   font-size: 1.8rem;
@@ -460,6 +465,7 @@ display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
