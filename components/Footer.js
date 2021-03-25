@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <Link href="https://github.com/prullansky">
-        <img src="footer/github.svg" className={styles.icon} />
+        <img src="/footer/github.svg" className={styles.icon} />
       </Link>
 
       <Link href="https://www.linkedin.com/in/ale-j-rodriguez/">
