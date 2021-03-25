@@ -115,9 +115,9 @@ export const IllustrationData = [
     thumbnail: '',
     full: '/illustrations/dansokey.jpg',
   },
-  {
-    id: 'alien',
-    thumbnail: '',
-    full: '/illustrations/alien.jpg',
-  },
+  // {
+  //   id: 'alien',
+  //   thumbnail: '',
+  //   full: '/illustrations/alien.jpg',
+  // },
 ]

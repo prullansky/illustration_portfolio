@@ -27,16 +27,15 @@ export default function web_projects() {
                 </div> */}
               </div>
 
+              <a href={project.demo} target="_blank">
+                <img
+                  id="image"
+                  className={styles.web_project_image}
+                  src={project.picture}
+                />
+              </a>
+
               <div>
-                <a href={project.demo} target="_blank">
-                  <img
-                    id="image"
-                    className={
-                      (styles.container_web_project, styles.web_project_image)
-                    }
-                    src={project.picture}
-                  />
-                </a>
                 <p>{project.description}</p>
                 <a className={styles.a} href={project.github} target="_blank">
                   Github repo
