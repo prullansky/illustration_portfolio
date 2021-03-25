@@ -36,7 +36,7 @@
 @media only screen and (max-width: 1920px) {
 
   .homeIllustration {
-    height: 35rem;
+    height: 50rem;
     padding: 2rem;
   }
 
@@ -178,11 +178,12 @@
 .gallery {
   margin-left: auto;
   margin-right: auto;
+
   
 }
 
 .fullScreen {
-  width: 100%;
+  width: 60%;
 }
 
 .containerIllustrations {  
@@ -256,7 +257,7 @@
 }
 
 .comicDetail {
-  height: 60rem;
+  height: 50rem;
   text-align: center
 }
 
@@ -278,6 +279,15 @@
   .comic {
     height: 12rem;
 
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  .comicDetail {
+    height: 15rem;
+    text-align: center
   }
 
 }

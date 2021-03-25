@@ -67,19 +67,19 @@ export const comicsList = [
   //         '/comics/lisa_frank/8.jpg',
   //     ],
   // },
-  {
-    id: 'bb',
-    title: 'BB',
-    description: 'Comic for Instagram',
-    thumbnail: '/comics/bb/bb1.jpg',
-    images: [
-      '/comics/bb/bb1.jpg',
-      '/comics/bb/bb2.jpg',
-      '/comics/bb/bb3.jpg',
-      '/comics/bb/bb4.jpg',
-      '/comics/bb/bb5.jpg',
-    ],
-  },
+  // {
+  //   id: 'bb',
+  //   title: 'BB',
+  //   description: 'Comic for Instagram',
+  //   thumbnail: '/comics/bb/bb1.jpg',
+  //   images: [
+  //     '/comics/bb/bb1.jpg',
+  //     '/comics/bb/bb2.jpg',
+  //     '/comics/bb/bb3.jpg',
+  //     '/comics/bb/bb4.jpg',
+  //     '/comics/bb/bb5.jpg',
+  //   ],
+  // },
   {
     id: 'hair',
     title: 'Hairass',
@@ -106,13 +106,13 @@ export const comicsList = [
   //     '/comics/beauty/6.jpg',
   //   ],
   // },
-  {
-    id: 'colillas',
-    title: 'colillas',
-    description: 'Comic for Instagram',
-    thumbnail: '/comics/colillas/colillas.jpg',
-    images: ['/comics/colillas/colillas.jpg'],
-  },
+  // {
+  //   id: 'colillas',
+  //   title: 'colillas',
+  //   description: 'Comic for Instagram',
+  //   thumbnail: '/comics/colillas/colillas.jpg',
+  //   images: ['/comics/colillas/colillas.jpg'],
+  // },
   {
     id: 'wild',
     title: 'Wild',
