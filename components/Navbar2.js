@@ -64,11 +64,11 @@ export default function Navbar2() {
             </Link>
           </div>
 
-          <div className={router.pathname == '/bio' ? styles.current : ''}>
+          {/* <div className={router.pathname == '/bio' ? styles.current : ''}>
             <Link href="/bio">
               <a>Bio</a>
             </Link>
-          </div>
+          </div> */}
         </div>
         <button onClick={displayHidden}>
           <FaBars />
@@ -101,12 +101,15 @@ export default function Navbar2() {
               <a>Video</a>
             </Link>
           </div>
-          <div className={router.pathname == '/bio' ? styles.current : ''}>
+          {/* <div className={router.pathname == '/bio' ? styles.current : ''}>
             <Link href="/bio">
               <a>Bio</a>
             </Link>
-          </div>
+          </div> */}
         </div>
+        <button onClick={displayHidden} className={styles.newButton}>
+          <FaBars />
+        </button>
       </div>
     </div>
   )

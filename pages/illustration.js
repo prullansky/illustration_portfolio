@@ -6,6 +6,10 @@ import { IllustrationData } from '../data/IllustrationData.js'
 export default function Illustration() {
   const [activePic, setActivePic] = useState(undefined)
 
+  const goBack = (e) => {
+    setActivePic(pic)
+  }
+
   return (
     <Layout>
       <div>
@@ -28,7 +32,7 @@ export default function Illustration() {
                   onClick={() => setActivePic(pic)}
                 >
                   <a href="#gallery">
-                    <img id="image" className={styles.image} src={pic.full} />
+                    <img id={pic.id} className={styles.image} src={pic.full} />
                   </a>
                 </button>
               </div>

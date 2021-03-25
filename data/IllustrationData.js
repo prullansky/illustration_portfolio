@@ -111,10 +111,12 @@ export const IllustrationData = [
   //   full: '/illustrations/INSTA1.jpg',
   // },
   {
+    id: 'dansokey',
     thumbnail: '',
     full: '/illustrations/dansokey.jpg',
   },
   {
+    id: 'alien',
     thumbnail: '',
     full: '/illustrations/alien.jpg',
   },
