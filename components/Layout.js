@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.css'
-import Navbar from './Navbar.js'
 import Footer from './Footer.js'
 import Navbar2 from './Navbar2.js'
 
