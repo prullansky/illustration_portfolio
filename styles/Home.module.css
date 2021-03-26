@@ -1,16 +1,11 @@
 /* Home */
 
-/* .homeIllustration {
-
-  height: 50rem;
-  margin-top: 1rem;
-}
 
 .homeLayout {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-} */
+} 
 
 .homeContainer {
   display: flex;
@@ -35,11 +30,14 @@
 }
 
 .homePic {
-  width: 100%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7rem;
+  position:absolute;
+  bottom: 3rem;
+  right: 2rem;
 }
 
 .homePicContainer {
@@ -61,14 +59,14 @@
   }
 
   .homePicContainer {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .homePic {
     
-    width: 46%;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -78,24 +76,37 @@ justify-content: flex-end;
 
 } 
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1024px) {
 
-  .homeIllustration {
-    height: 28rem;
-    margin-top: 3rem;
+  .homePic {
+    
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    position:absolute;
+    bottom: 3rem;
+    right: 16rem;
   }
+
 
 }
 
 @media only screen and (max-width: 375px) {
 
-  .homeIllustration {
-    height: 100%;
-    width:100%;
-    margin-top: 3rem;
+  .homePic {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    position:absolute;
+    bottom: 2rem;
+    right: 5rem;
   }
-
 }
+
 
 
 /* Web-Project */
