@@ -10,15 +10,15 @@ export default function Footer() {
       </Link>
 
       <Link href="https://www.linkedin.com/in/ale-j-rodriguez/">
-        <img src="footer/linkedin.svg" className={styles.icon} />
+        <img src="/footer/linkedin.svg" className={styles.icon} />
       </Link>
 
       <Link href="https://alejrodriguez.medium.com/">
-        <img src="footer/medium.svg" className={styles.icon} />
+        <img src="/footer/medium.svg" className={styles.icon} />
       </Link>
 
       <Link href="mailto:alesrods@gmail.com">
-        <img src="footer/email.svg" className={styles.icon} />
+        <img src="/footer/email.svg" className={styles.icon} />
       </Link>
     </div>
   )
