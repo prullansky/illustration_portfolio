@@ -16,17 +16,22 @@
   align-items: center;
   height: 100%;
   min-height: 100%;
-  background-color: red;
+  /* background-color: red; */
 }
 
-.homeText {
+.homeText p {
+  max-width: 40rem;
+  font-size: 1.5rem;;
+}
 
+.homeText h1 {
+  max-width: 50rem;
+  font-size: 8rem;
+  margin-bottom: 1rem;
 }
 
 .homeText a {
   text-decoration: underline;
-
-
 }
 
 .homePic {
@@ -66,44 +71,104 @@
 
   .homePic {
     
-    width: 35%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7rem;
   }
-  
 
-} 
+  .homeText {
+    margin-top: 4rem;
+    width:80%;
+  }
+
+}
 
 @media only screen and (max-width: 1024px) {
 
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 40rem;
+    font-size: 1.4rem;;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 30rem;
+    font-size: 1.4rem;;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 28rem;
+    font-size: 1.3rem;;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+
+  .homeText h1 {
+    max-width: 30rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 25rem;
+    font-size: 1.3rem;;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+
   .homePic {
-    
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7rem;
     position:absolute;
-    bottom: 3rem;
-    right: 16rem;
+    bottom: 2rem;
+    right: 1rem;
   }
 
+  .homeText {
+    margin-top: 0;
+    width:80%;
+  }
 
-}
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
 
-@media only screen and (max-width: 375px) {
-
-  .homePic {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7rem;
-    position:absolute;
-    bottom: 2rem;
-    right: 5rem;
+  .homeText p {
+    max-width: 40rem;
+    font-size: 1.2rem;;
   }
 }
 
@@ -242,6 +307,16 @@
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 4rem;
+}
+
+.containerImage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
 }
 
 @media only screen and (max-width: 375px) {

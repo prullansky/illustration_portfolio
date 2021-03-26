@@ -9,18 +9,20 @@ export default function Home() {
     <Layout>
       <div className={styles.homeContainer}>
         <div className={styles.homeText}>
-          <h1>Hi! I'm ale.</h1>
+          <h1> ale rodriguez</h1>
+          <p>Visual artist discovering the marvels of web development.</p>
           <p>
-            <a href="/illustration">Illustrator</a>, <a href="/video">Video</a>{' '}
-            and <a href="/comics">Comic artist</a> turned into{' '}
-            <a href="/web_projects">Web Developer</a>.
-          </p>
-          <p>
-            I also like to <a href="https://alejrodriguez.medium.com/">write</a>{' '}
+            I love to <a href="/illustration">draw</a>, to get messy with{' '}
+            <a href="/video">film</a> and to <a href="/comics">tell stories</a>.
+            I even dare to <a href="https://alejrodriguez.medium.com/">write</a>{' '}
             about the intersection between culture and life.
           </p>
-          <p>It's all I can think of actually, tacos and burritos.</p>
-          <p>It's all I can think of actually, tacos and burritos.</p>
+          <p>
+            On my search for new creative outlets I found{' '}
+            <a href="/web_projects">coding</a> : I love the playfulness of it. I
+            love to tinker around with it. I love - <strong>it</strong>.
+          </p>
+          <p>Drop me a line!</p>
         </div>
         <div className={styles.homePicContainer}>
           <img
