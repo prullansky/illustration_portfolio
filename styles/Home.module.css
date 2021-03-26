@@ -51,7 +51,7 @@
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1950px) {
 
 
   .homeContainer {
@@ -141,6 +141,20 @@
   }
 }
 
+@media only screen and (max-width: 414px) {
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 40rem;
+    font-size: 1.2rem;;
+  }
+}
+
 
 @media only screen and (max-width: 375px) {
 
@@ -169,6 +183,20 @@
   .homeText p {
     max-width: 40rem;
     font-size: 1.2rem;;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 40rem;
+    font-size: 1.1rem;;
   }
 }
 
