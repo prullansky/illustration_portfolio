@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <div className={styles.homeContainer}>
         <div className={styles.homeText}>
-          <h1> ale rodriguez</h1>
+          <h1> ale rodrigue≥</h1>
           <p>Visual artist discovering the marvels of web development.</p>
           <p>
             I love to <a href="/illustration">draw</a>, to get messy with{' '}
@@ -19,10 +19,9 @@ export default function Home() {
           </p>
           <p>
             On my search for new creative outlets I found{' '}
-            <a href="/web_projects">coding</a> : I love the playfulness of it. I
-            love to tinker around with it. I love - <strong>it</strong>.
+            <a href="/web_projects">coding</a> : I enjoy the playfulness of it
+            and to tinker around with it.
           </p>
-          <p>Drop me a line!</p>
         </div>
         <div className={styles.homePicContainer}>
           <img

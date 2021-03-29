@@ -176,11 +176,11 @@ export const comicsList = [
     ],
   },
 
-  {
-    id: 'roland',
-    title: 'roland',
-    description: 'Comic for Instagram',
-    thumbnail: '/comics/roland/roland2.jpg',
-    images: ['/comics/roland/roland1.jpg', '/comics/roland/roland2.jpg'],
-  },
+  // {
+  //   id: 'roland',
+  //   title: 'roland',
+  //   description: 'Comic for Instagram',
+  //   thumbnail: '/comics/roland/roland2.jpg',
+  //   images: ['/comics/roland/roland1.jpg', '/comics/roland/roland2.jpg'],
+  // },
 ]

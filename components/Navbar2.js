@@ -81,7 +81,7 @@ export default function Navbar2() {
             className={router.pathname == '/web_projects' ? styles.current : ''}
           >
             <Link href="/web_projects">
-              <a>Web Projects</a>
+              <a className={styles.lol}>Web Projects</a>
             </Link>
           </div>
           <div
