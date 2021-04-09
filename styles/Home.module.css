@@ -41,8 +41,8 @@
   margin-right: auto;
   margin-top: 7rem;
   position:absolute;
-  bottom: 3rem;
-  right: 2rem;
+  bottom: 2rem;
+  right: 6rem;
 }
 
 .homePicContainer {
@@ -80,9 +80,39 @@
 
   .homeText {
     margin-top: 2rem;
-    width:80%;
+    margin-left: 6rem;
+    width:100%;
   }
 
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 7rem;;
+  }
+
+  .homeText p {
+    max-width: 38rem;
+    font-size: 1.5rem;;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .homeText {
+    margin-top: 4rem;
+    width:50%;
+  }
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .homeText p {
+    max-width: 30rem;
+    font-size: 1.4rem;;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -102,13 +132,14 @@
 @media only screen and (max-width: 830px) {
 
   .homeText h1 {
-    max-width: 50rem;
-    font-size: 6rem;
+    max-width: 100%;
+    font-size: 3rem;
     margin-bottom: 1rem;
+    margin-top: 5rem;
   }
 
   .homeText p {
-    max-width: 30rem;
+    max-width: 100rem;
     font-size: 1.4rem;;
   }
 }
@@ -117,21 +148,33 @@
 
   .homeText h1 {
     max-width: 50rem;
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
   }
 
   .homeText p {
-    max-width: 28rem;
+    max-width: 40rem;
     font-size: 1.3rem;;
+  }
+
+  .homePic {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    position:absolute;
+    bottom: 2rem;
+    right: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 595px) {
 
   .homeText h1 {
-    max-width: 30rem;
-    font-size: 4rem;
+    max-width: 50rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
 
@@ -141,17 +184,29 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 480px) {
 
   .homeText h1 {
-    max-width: 50rem;
-    font-size: 3rem;
+    max-width: 100%;
+    font-size: 2rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
   }
 
   .homeText p {
-    max-width: 40rem;
+    max-width: 49rem;
     font-size: 1.2rem;;
+  }
+
+  .homePic {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    position:absolute;
+    bottom: 2rem;
+    right: 3rem;
   }
 }
 
@@ -176,6 +231,7 @@
 
   .homeText h1 {
     max-width: 50rem;
+    margin-top: 7rem;
     font-size: 3rem;
     margin-bottom: 1rem;
   }
@@ -190,7 +246,8 @@
 
   .homeText h1 {
     max-width: 50rem;
-    font-size: 2.5rem;
+    margin-top: 7rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -337,6 +394,7 @@
 }
 
 .fullScreen {
+  margin: 2.5rem;
   width: 60%;
 }
 
@@ -367,6 +425,35 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .fullScreen {
+  margin-top: 3.5rem;
+  width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .containerIllustrations {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .fullScreen {
+    width: 0%;
+    margin-top: auto;
+  }
+
+  .image {
+    width: 30rem;
+    /* padding: 3rem; */
+  }
+}
+
 @media only screen and (max-width: 375px) {
 
   .image {
@@ -381,6 +468,21 @@
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 4rem;
+  }
+
+  .fullScreen {
+    width: 0%;
+    margin-top: auto;
+  }
+
+  .wrapper {
+    border:none;
+    background-image:red;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: default;
   }
 
 }
@@ -433,8 +535,15 @@
 
 @media only screen and (max-width: 1280px) {
   .comicDetail {
-    height: 30rem;
+    height: 40rem;
     text-align: center
+  }
+
+  .comic {
+    height: 18rem;
+    padding-top: 2rem;
+
+
   }
 }
 
@@ -461,6 +570,20 @@
 
 }
 
+@media only screen and (max-width: 480px) {
+
+  .comicDetail {
+    height: 20rem;
+    text-align: center;
+
+  }
+
+  .comic {
+    height: 16rem;
+    margin-top: 4rem;
+  }
+}
+
 @media only screen and (max-width: 375px) {
 
   .comicDetail {
@@ -483,7 +606,7 @@
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 2000px) {
 
   .containerVideos {
     display: flex;
@@ -500,6 +623,28 @@
     height: 20rem;
     width: 35rem;
     padding: 0.5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .containerVideos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding-bottom: 3rem;
+
+  }
+  .containerVideos .video {
+    height: 20rem;
+    width: 35rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -523,6 +668,26 @@
   }
 }
 
+@media only screen and (max-width: 481px) {
+
+  .containerVideos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .containerVideos .video {
+    height: 18rem;
+    width: 500px;
+    padding: 1.5rem;
+  }
+}
+
 
 /* Footer */
 
@@ -532,7 +697,7 @@
   position:fixed;
   bottom:0;
   width: 100%;
-  height: 3rem;
+  height: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -543,7 +708,7 @@
 }
 
 .icon {
-  height: 1.5rem;
+  height: 1.2rem;
 }
 
 .icon:hover {
@@ -554,8 +719,10 @@
 
 .navbar {
 background-color: #fdd302;
+position: fixed;
+top: 0;
 width: 100%;
-height: 4rem;
+height: 2rem;
 display: flex;
 }
 
@@ -567,8 +734,8 @@ align-items: center;
 }
 
 .navbar .leftSide .home {
-  padding-left: 1rem;
-  font-size: 1.8rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
 }
 
 .navbar .leftSide .hidden {
@@ -577,8 +744,9 @@ align-items: center;
 
 .navbar .leftSide .show {
   position: absolute; 
-  top: 3rem;
-  height: 100%;
+  top: 2rem;
+  padding-left: 2.5rem;
+  height: 20rem;
   width: 100%;
   background-color: #fdd302;
   display: flex;
@@ -588,13 +756,13 @@ align-items: center;
 }
 
 .navbar .leftSide .show a{
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .current{
   text-decoration: line-through;
   text-decoration-color:red;
-  text-decoration-thickness: 0.3rem;
+  text-decoration-thickness: 0.2rem;
   font-weight: bold;
 }
 
@@ -603,7 +771,7 @@ align-items: center;
   margin-left: 2rem;
   border: none;
   background: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .newButton {
@@ -625,13 +793,13 @@ display: flex;
 
 
 .navbar .rightSide .links {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 
 
@@ -690,8 +858,9 @@ display: flex;
   }
 
   .navbar .leftSide .show {
-    height: 50%;
+    height: 18rem;
     top: 3rem;
+    padding-left: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -699,7 +868,7 @@ display: flex;
   }
 
   .navbar .leftSide .show a{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-left: 1rem;
   }
 

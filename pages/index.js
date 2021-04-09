@@ -13,14 +13,15 @@ export default function Home() {
           <p>Visual artist discovering the marvels of web development.</p>
           <p>
             I love to <a href="/illustration">draw</a>, to get messy with{' '}
-            <a href="/video">film</a> and to <a href="/comics">tell stories</a>.
-            I even dare to <a href="https://alejrodriguez.medium.com/">write</a>{' '}
-            about the intersection between culture and life.
+            <a href="/video">video</a> and to <a href="/comics">tell stories</a>
+            . I even dare to{' '}
+            <a href="https://alejrodriguez.medium.com/">write</a> about the
+            intersection between life and things I love.
           </p>
           <p>
             On my search for new creative outlets I found{' '}
             <a href="/web_projects">coding</a> : I enjoy the playfulness of it
-            and to tinker around with it.
+            and love to tinker around with it.
           </p>
         </div>
         <div className={styles.homePicContainer}>
