@@ -243,18 +243,36 @@
 
   .homeText h1 {
     max-width: 50rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
   .homeText p {
-    max-width: 40rem;
-    font-size: 1.1rem;;
+    max-width: 50rem;
+    font-size: 1rem;;
   }
 
   .homePic {
-    width: 45%;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .homeText h1 {
+    max-width: 50rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .homeText p {
+    max-width: 50rem;
+    font-size: 0.9rem;;
+  }
+
+  .homePic {
+    width: 30%;
   }
 }
 
