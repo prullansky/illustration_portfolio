@@ -51,7 +51,31 @@
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 1950px) {
+@media only screen and (min-width: 1920px) {
+
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  .homePicContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .homeText {
+    margin-top: 6rem;
+    margin-left: 6rem;
+  }
+
+}
+
+@media only screen and (max-width: 1900px) {
 
 
   .homeContainer {
@@ -79,8 +103,8 @@
   }
 
   .homeText {
-    margin-top: 2rem;
-    margin-left: 6rem;
+    margin-top: 6rem;
+    margin-left: 20rem;
     width:100%;
   }
 
@@ -100,6 +124,7 @@
 
   .homeText {
     margin-top: 4rem;
+    margin-left: 2rem;
     width:50%;
   }
 
@@ -115,36 +140,13 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 
-  .homeText h1 {
-    max-width: 50rem;
-    font-size: 6rem;
-    margin-bottom: 1rem;
+  .homeText {
+    max-width: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
-
-  .homeText p {
-    max-width: 40rem;
-    font-size: 1.4rem;;
-  }
-}
-
-@media only screen and (max-width: 830px) {
-
-  .homeText h1 {
-    max-width: 100%;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-top: 5rem;
-  }
-
-  .homeText p {
-    max-width: 100rem;
-    font-size: 1.4rem;;
-  }
-}
-
-@media only screen and (max-width: 720px) {
 
   .homeText h1 {
     max-width: 50rem;
@@ -154,7 +156,7 @@
   }
 
   .homeText p {
-    max-width: 40rem;
+    max-width: 30rem;
     font-size: 1.3rem;;
   }
 
@@ -170,32 +172,25 @@
   }
 }
 
-@media only screen and (max-width: 595px) {
-
-  .homeText h1 {
-    max-width: 50rem;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  .homeText p {
-    max-width: 25rem;
-    font-size: 1.3rem;;
-  }
-}
 
 @media only screen and (max-width: 480px) {
 
+  .homeText {
+    margin-top: 2rem;
+    width:70%;
+    margin-left: 2rem;
+  }
+
   .homeText h1 {
     max-width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
   }
 
   .homeText p {
-    max-width: 49rem;
-    font-size: 1.2rem;;
+    max-width: 40rem;
+    font-size: 1.1rem;;
   }
 
   .homePic {
@@ -364,7 +359,7 @@
 
   .card {
     padding: 1rem;
-    margin: 0.5rem;
+    margin-top: 2rem;
   }
 
 }
@@ -419,9 +414,15 @@
   
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1920px) {
   .fullScreen {
   width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .fullScreen {
+  width: 30%;
   }
 }
 
@@ -533,7 +534,14 @@
   text-align: center
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1980px) {
+  .comicDetail {
+    height: 42rem;
+    text-align: center
+  }
+}
+
+@media only screen and (max-width: 1281px) {
   .comicDetail {
     height: 40rem;
     text-align: center
@@ -627,6 +635,27 @@
   }
 }
 
+@media only screen and (min-width: 1400px) {
+
+  .containerVideos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding-bottom: 3rem;
+
+  }
+  .containerVideos .video {
+    height: 29rem;
+    width: 40rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
 
   .containerVideos {
@@ -709,10 +738,12 @@
 
 .icon {
   height: 1.2rem;
+  transition: all .2s ease-in-out;
 }
 
 .icon:hover {
   cursor: pointer;
+  transform: scale(1.4)
 }
 
 /* Navbar2 */
@@ -722,7 +753,7 @@ background-color: #fdd302;
 position: fixed;
 top: 0;
 width: 100%;
-height: 2rem;
+height: 3rem;
 display: flex;
 }
 
@@ -735,7 +766,11 @@ align-items: center;
 
 .navbar .leftSide .home {
   padding-left: 3rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.navbar .leftSide .home a:hover{
+  text-decoration: underline;
 }
 
 .navbar .leftSide .hidden {
@@ -744,7 +779,7 @@ align-items: center;
 
 .navbar .leftSide .show {
   position: absolute; 
-  top: 2rem;
+  top: 3rem;
   padding-left: 2.5rem;
   height: 20rem;
   width: 100%;
@@ -762,8 +797,8 @@ align-items: center;
 .current{
   text-decoration: line-through;
   text-decoration-color:red;
-  text-decoration-thickness: 0.2rem;
-  font-weight: bold;
+  text-decoration-thickness: 0.15rem;
+
 }
 
 .navbar .leftSide button {
@@ -793,15 +828,24 @@ display: flex;
 
 
 .navbar .rightSide .links {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
+
+.navbar .rightSide .links a {
+  line-height: 1.2rem;
+  transition: all .2s ease-in-out;
+}  
+
+.navbar .rightSide .links a:hover{
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1024px) {
   .navbar .rightSide .links {
@@ -888,4 +932,6 @@ display: flex;
     height: 1rem;
   }
 }
+
+/* Media Queries */
 

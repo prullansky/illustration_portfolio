@@ -106,6 +106,31 @@ export const IllustrationData = [
     thumbnail: '',
     full: '/illustrations/yoda.jpg',
   },
+  {
+    id: '#sasha',
+    thumbnail: '',
+    full: '/illustrations/sasha.png',
+  },
+  {
+    id: '#new_therapist',
+    thumbnail: '',
+    full: '/illustrations/newtherapist.png',
+  },
+  {
+    id: '#moon',
+    thumbnail: '',
+    full: '/illustrations/moon.png',
+  },
+  {
+    id: '#portrait',
+    thumbnail: '',
+    full: '/illustrations/portrait.png',
+  },
+  {
+    id: '#goonman',
+    thumbnail: '',
+    full: '/illustrations/goonman.png',
+  },
   // {
   //   thumbnail: '',
   //   full: '/illustrations/INSTA1.jpg',
