@@ -179,21 +179,21 @@
 @media only screen and (max-width: 768px) {
 
   .homeText {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: 2rem;
     margin-top: 2rem;
   }
 
   .homeText h1 {
     max-width: 50rem;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
 
   .homeText p {
-    max-width: 30rem;
-    font-size: 1.3rem;;
+    max-width: 40rem;
+    font-size: 1rem;;
   }
 
   .homePic {
@@ -226,7 +226,7 @@
 
   .homeText p {
     max-width: 40rem;
-    font-size: 1.1rem;;
+    font-size: 1.1rem;
   }
 
   .homePic {
