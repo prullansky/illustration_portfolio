@@ -73,6 +73,11 @@
     margin-left: 6rem;
   }
 
+  .homePic {
+    position:absolute;
+    bottom: 2rem;
+  }
+
 }
 
 @media only screen and (max-width: 1900px) {
@@ -99,7 +104,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7rem;
+      position:absolute;
+      bottom: 2rem;
+  
   }
 
   .homeText {
@@ -122,9 +129,25 @@
 
 @media only screen and (max-width: 1500px) {
   .homeText {
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
     width:50%;
+  }
+
+  .homeText h1 {
+    max-width: 50rem;
+    font-size: 5.5rem;;
+  }
+
+  .homeText p {
+    max-width: 35rem;
+    font-size: 1.3rem;;
+  }
+
+  .homePic {
+      position:absolute;
+      bottom: 2rem;
+  
   }
 }
 
@@ -146,6 +169,11 @@
     max-width: 30rem;
     font-size: 1.4rem;;
   }
+
+  .homePic {
+    position:absolute;
+    bottom: 2rem;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -236,6 +264,8 @@
 
   .homePic {
     width: 45%;
+      position:absolute;
+      bottom: 2rem;
   }
 }
 
@@ -255,6 +285,8 @@
 
   .homePic {
     width: 40%;
+      position:absolute;
+      bottom: 2rem;
   }
 }
 
@@ -273,6 +305,8 @@
 
   .homePic {
     width: 30%;
+      position:absolute;
+      bottom: 2rem;
   }
 }
 
