@@ -275,18 +275,18 @@
     max-width: 50rem;
     margin-top: 3rem;
     font-size: 2rem;
-    margin-bottom: 1rem;
   }
 
   .homeText p {
     max-width: 50rem;
-    font-size: 1rem;;
+    font-size: 0.9rem;;
   }
 
   .homePic {
-    width: 40%;
+    width: 30%;
       position:absolute;
       bottom: 2rem;
+      right: 2rem;
   }
 }
 
