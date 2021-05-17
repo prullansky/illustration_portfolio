@@ -42,18 +42,18 @@ export default function video() {
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
         ></iframe>
-        {/* <iframe
+        <iframe
           className={styles.video}
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/Z9O1zB1DE3U"
+          src="https://www.youtube.com/embed/bF7MXxzlLTM"
           frameborder="0"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen"
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
           webkitallowfullscreen="webkitallowfullscreen"
-        ></iframe> */}
+        ></iframe>
         <iframe
           className={styles.video}
           width="896"
@@ -82,7 +82,91 @@ export default function video() {
           className={styles.video}
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/r6IbfB-X2Is"
+          src="https://www.youtube.com/embed/GIxQDxuQNA4"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/ogTeixzDw0Q"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/qHFB1DEnRlM"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/liVf92-ELw0"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/FuHreqftKQA"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/IhajUvDE_LA"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/Z9O1zB1DE3U"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen"
+          msallowfullscreen="msallowfullscreen"
+          oallowfullscreen="oallowfullscreen"
+          webkitallowfullscreen="webkitallowfullscreen"
+        ></iframe>
+        <iframe
+          className={styles.video}
+          width="896"
+          height="504"
+          src="https://www.youtube.com/embed/OeVoV7Q1cMQ"
           frameborder="0"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen"
