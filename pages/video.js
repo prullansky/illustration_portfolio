@@ -154,7 +154,7 @@ export default function video() {
           className={styles.video}
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/Z9O1zB1DE3U"
+          src="https://www.youtube.com/embed/KQjYNSIFDxM"
           frameborder="0"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen"
