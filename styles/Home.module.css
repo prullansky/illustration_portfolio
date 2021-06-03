@@ -853,8 +853,7 @@ align-items: center;
 }
 
 .current{
-  text-decoration: line-through;
-  text-decoration-color:red;
+  text-decoration: underline;
   text-decoration-thickness: 0.15rem;
 
 }
